@@ -1,13 +1,13 @@
 {
   "name": "imageresizer",
-  "homepage": "http://Suraj370.github.io/imageresizer",
+  "homepage": "https://Suraj370.github.io/imageresizer",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run  build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
